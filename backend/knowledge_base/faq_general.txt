@@ -1,0 +1,25 @@
+SMARTDESK GENERAL FAQ
+
+Q: What is SmartDesk?
+A: SmartDesk is an AI-powered customer support platform that helps customers resolve their queries instantly. Our AI agent can answer questions, look up orders, and escalate complex issues to human agents.
+
+Q: What are your business hours?
+A: Our AI support is available 24/7. Human agents are available Monday to Friday, 9 AM to 6 PM EST.
+
+Q: How do I contact support?
+A: You can chat with our AI agent anytime through this platform. For urgent issues, email us at support@smartdesk.com or call 1-800-SMART-DESK during business hours.
+
+Q: How long does it take to get a response?
+A: Our AI agent responds instantly. If your issue is escalated to a human agent, you will receive a response within 2-4 business hours.
+
+Q: Is my data safe with SmartDesk?
+A: Yes. We use industry-standard encryption for all data. We never share your personal information with third parties. Please read our privacy policy at smartdesk.com/privacy for full details.
+
+Q: How do I create an account?
+A: Click the "Register" button on our homepage, enter your email address, choose a username and password, and you're all set!
+
+Q: I forgot my password. What do I do?
+A: Click "Forgot Password" on the login page and enter your email address. You will receive a password reset link within a few minutes.
+
+Q: Can I change my email address?
+A: Yes. Go to Account Settings after logging in and update your email address. You will need to verify the new email address.

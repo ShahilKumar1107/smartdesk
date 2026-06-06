@@ -1,0 +1,99 @@
+# ============================================================
+# SmartDesk Backend Dependencies
+# Install all with: pip install -r requirements.txt
+# ============================================================
+
+# ----- Web Framework -----
+# FastAPI: Modern, fast web framework for building APIs in Python.
+# It auto-generates API documentation and is much faster than Django/Flask.
+fastapi==0.115.5
+
+# uvicorn: The server that RUNS your FastAPI app.
+# Think of FastAPI as the engine and uvicorn as the car — you need both.
+# [standard] includes extra features like auto-reload during development.
+uvicorn[standard]==0.32.1
+
+# ----- Database -----
+# SQLAlchemy: The industry-standard way to talk to databases in Python.
+# Instead of writing raw SQL, you write Python classes that map to tables.
+# This is called an ORM (Object-Relational Mapper).
+sqlalchemy==2.0.36
+
+# asyncpg: An async driver that lets FastAPI talk to PostgreSQL efficiently.
+# "async" means it can handle many requests at once without waiting.
+asyncpg==0.30.0
+
+# psycopg2-binary: Another PostgreSQL driver, used for synchronous operations
+# and Alembic migrations. "binary" means it includes everything needed.
+psycopg2-binary==2.9.10
+
+# alembic: Database migration tool. When you change your database tables
+# (add a column, rename a field), Alembic tracks and applies those changes safely.
+alembic==1.14.0
+
+# ----- Authentication -----
+# python-jose: Library for creating and verifying JWT (JSON Web Tokens).
+# JWTs are like digital ID cards — they prove who you are to the server.
+python-jose[cryptography]==3.3.0
+
+# passlib: Handles password hashing. NEVER store plain-text passwords!
+# passlib will turn "mypassword123" into a scrambled string like "$2b$12$..."
+# [bcrypt] means we use the bcrypt hashing algorithm (industry standard).
+passlib[bcrypt]==1.7.4
+
+# ----- AI / LangChain -----
+# langchain: The core framework for building AI agents and chains.
+# It connects LLMs (like OpenAI) with tools, memory, and data sources.
+langchain==0.3.9
+
+# langchain-openai: The OpenAI-specific integration for LangChain.
+# Lets LangChain call OpenAI's GPT models and embedding models.
+langchain-openai==0.2.11
+
+# langchain-community: Community-built integrations (includes ChromaDB support).
+langchain-community==0.3.9
+
+# openai: The official OpenAI Python SDK.
+# Used directly for embeddings (converting text to numbers for search).
+openai==1.55.3
+
+# ----- Vector Database -----
+# chromadb: An open-source vector database that stores embeddings locally.
+# This powers our RAG (Retrieval-Augmented Generation) knowledge base.
+chromadb==0.5.20
+
+# ----- Data Validation -----
+# pydantic: Validates data shapes. If your API expects an email field,
+# pydantic will reject requests that send a number instead.
+# FastAPI uses pydantic heavily under the hood.
+pydantic==2.10.3
+
+# pydantic-settings: Lets you load settings from .env files automatically.
+# Used in our config.py to read API keys and database URLs.
+pydantic-settings==2.6.1
+
+# ----- HTTP & Utilities -----
+# python-dotenv: Reads your .env file and loads variables into the environment.
+# This is how your app reads SECRET keys without hardcoding them.
+python-dotenv==1.0.1
+
+# python-multipart: Required for FastAPI to handle file uploads and form data.
+python-multipart==0.0.12
+
+# httpx: A modern HTTP client for making API calls from Python.
+# Used internally by some LangChain components.
+httpx==0.27.2
+
+# ----- Text Processing -----
+# tiktoken: OpenAI's tokenizer — splits text into tokens (word pieces).
+# Used to count tokens and ensure we don't exceed model limits.
+tiktoken==0.8.0
+
+# ----- Testing -----
+# pytest: The industry-standard testing framework for Python.
+pytest==8.3.4
+
+# pytest-asyncio: Lets pytest run async test functions (needed for FastAPI tests).
+pytest-asyncio==0.24.0
+
+# httpx is also used for testing FastAPI endpoints directly (test client).

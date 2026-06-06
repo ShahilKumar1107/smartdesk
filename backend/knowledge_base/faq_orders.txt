@@ -1,0 +1,32 @@
+SMARTDESK ORDER FAQ
+
+Q: How do I track my order?
+A: You can track your order by asking our AI agent with your order ID (e.g. "Where is my order ORD-001?"). We will show you the current status and shipping information.
+
+Q: What do the order statuses mean?
+A: Here are the possible order statuses:
+- Processing: Your order has been received and is being prepared
+- Shipped: Your order is on its way to you
+- Delivered: Your order has been successfully delivered
+- Cancelled: Your order has been cancelled
+
+Q: How long does shipping take?
+A: Standard shipping takes 5-7 business days. Express shipping takes 2-3 business days. Overnight shipping is available for an extra fee.
+
+Q: How much does shipping cost?
+A: Standard shipping is free for orders over $50. For orders under $50, standard shipping costs $5.99. Express shipping costs $12.99. Overnight shipping costs $24.99.
+
+Q: Can I change my shipping address after ordering?
+A: You can change your shipping address if the order is still in "Processing" status. Once it is "Shipped" we cannot change the address. Contact support immediately if you need to make changes.
+
+Q: How do I cancel my order?
+A: You can cancel an order that is still in "Processing" status. Ask our AI agent to cancel your order or contact support. Once an order is "Shipped" it cannot be cancelled but you can return it.
+
+Q: What is your return policy?
+A: We accept returns within 30 days of delivery. Items must be in original condition and packaging. To start a return, contact our support team with your order ID.
+
+Q: When will I receive my refund?
+A: Refunds are processed within 3-5 business days after we receive the returned item. The refund will be credited to your original payment method.
+
+Q: My order arrived damaged. What do I do?
+A: We are sorry to hear that! Please contact our support team immediately with your order ID and photos of the damaged item. We will arrange a replacement or refund right away.
